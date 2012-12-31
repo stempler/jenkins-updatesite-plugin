@@ -8,6 +8,7 @@ classes/
 target/
 /_*/
 *.patch
+work/
 
 # Eclipse
 .classpath

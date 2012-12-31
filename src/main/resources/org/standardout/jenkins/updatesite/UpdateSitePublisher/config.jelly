@@ -9,7 +9,12 @@
     Creates a text field that shows the value of the "name" property.
     When submitted, it will be passed to the corresponding constructor parameter.
   -->
-  <f:entry title="Name" field="name">
-    <f:textbox />
+  <f:entry title="Update Site directory/archive">
+    <f:textbox field="updateSite" />
   </f:entry>
+  
+  <f:entry title="Keep Update Sites for all builds">
+    <f:checkbox field="keepAll" />
+  </f:entry>
+  
 </j:jelly>

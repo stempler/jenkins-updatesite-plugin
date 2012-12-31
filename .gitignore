@@ -1,0 +1,21 @@
+# Lines that start with '#' are comments.
+
+# generic part (can be overridden locally using !pattern)
+bin/
+dist/
+logs/
+classes/
+target/
+/_*/
+*.patch
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# all hail windows
+Thumbs.db
+
+# and mac too
+.DS_Store

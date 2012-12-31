@@ -7,8 +7,8 @@
   </parent>
 
   <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>updatesite</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>publishsite</artifactId>
+  <version>0.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
@@ -25,4 +25,6 @@
       <url>http://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
+  <name>Publish Update Site</name>
+  <description>Publishes a directory or ZIP archive of an Eclipse Update Site</description>
 </project>
